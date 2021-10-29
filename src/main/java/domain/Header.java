@@ -1,9 +1,10 @@
 package domain;
 
 public class Header {
-    private String nameOwnerId;
-    private String iconOwnerId;
+    private int fromId;
+    private String nameFromId;
+    private String iconFromId;
     private String iconMoreAction;
     private String menuMoreAction;
-    private String dateTimePost;
+    private String date;
 }
